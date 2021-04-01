@@ -27,11 +27,14 @@
                             <nav class="menu-secondary">
                                 <ul class="nav">
                                     <li class="nav-item">
-                                        <a title="LinkedIn" href="https://www.linkedin.com/company/18135051/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a title="LinkedIn" href="https://www.linkedin.com/company/koyal-technologies-llp"><i class="fab fa-linkedin-in"></i></a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a title="Facebook" href="https://www.facebook.com/adveits/"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                     <li class="nav-item">
+                                        <a title="Instagram" href="https://www.instagram.com/koyaltech/"><i class="fab fa-instagram"></i></a>
                                     </li>
                                 </ul>
                             </nav>

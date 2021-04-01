@@ -43,7 +43,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a title="LinkedIn" href="https://www.linkedin.com/company/18135051/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a title="LinkedIn" href="https://www.linkedin.com/in/jeff-reed-1631875"><i class="fab fa-linkedin-in"></i></a>
                                 </li>
 
                                 <li class="nav-item">
@@ -83,7 +83,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a title="LinkedIn" href="https://www.linkedin.com/company/18135051/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a title="LinkedIn" href="https://www.linkedin.com/in/josephsaju"><i class="fab fa-linkedin-in"></i></a>
                                 </li>
 
                                 <li class="nav-item">
