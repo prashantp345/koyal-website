@@ -13,6 +13,13 @@
                                 <nav class="menu-primary">
                                     <ul class="nav">
                                         <li class="nav-item" v-bind:class="menuElements[0]">
+                                            <drop-down 
+                                                :title="{name:'MENU ITEM',link:'MENU LINK'}" 
+                                                :menuData="[{name:'SUB MENU ITEM 1',link:'SUB MENU LINK 1'},
+                                                            {name:'SUB MENU ITEM 2',link:'SUB MENU LINK 2'}   ]"
+                                            />
+                                        </li>
+                                        <li class="nav-item" v-bind:class="menuElements[0]">
                                             <a id="nav-services" title="Services" href="#services">Services</a>
                                         </li>
 
@@ -43,15 +50,22 @@
                                 </nav>
                             </div>
 
+
                             <search-modal-button-component button-class="adv-light" btn-outline="btn-outline-tertiary" />
 
                             <menu-modal-button-component button-class="adv-light mr-0" btn-outline="btn-outline-tertiary" />
 
                             <menu-modal-button-component button-class="adv-dark" btn-outline="btn-secondary btn-hover-main-secondary" />
+
+                           
                         </div>
+
+                            
                     </div>
                 </div>
             </div>
+
+             
         </header>
     </transition>
 </template>
@@ -62,6 +76,7 @@
     import HeaderMenu from './General/HeaderMenu';
     import MenuModalButton from '../components/Button/MenuModalButton';
     import SearchModalButton from '../components/Button/SearchModalButton';
+    import Dropdown from '../components/Dropdown/Dropdown';
 
     export default {
         name: 'Header',
@@ -70,7 +85,8 @@
             'header-menu': HeaderMenu,
             'search-modal-button-component': SearchModalButton,
             'menu-modal-button-component': MenuModalButton,
-            'logo-block': Logo
+            'logo-block': Logo,
+            'drop-down' : Dropdown
         },
         data() {
             return {
