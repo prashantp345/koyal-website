@@ -11,7 +11,7 @@
 
                     <div class="align-self-center">
                         <div class="copyright">
-                            <p>© 2020 Business Consulting Agency Vue JS Template By <a href="https://www.adveits.com">Adveits</a></p>
+                            <p>© Koyal Technologies LLP</p>
                         </div>
                     </div>
 
