@@ -54,8 +54,8 @@
 
 .drop-down-menu a {
   display: block;
-  padding: 12px;
-  color: rgb(66, 64, 64);
+  padding: 10px;
+  color: rgb(187, 174, 59);
   text-decoration: none;
 }
 
@@ -63,8 +63,14 @@
   display:block;
   float: left;
   position: relative;
-  color: rgb(63, 60, 60);
-  min-width: 120px;
+  color: rgb(204, 188, 41);
+  min-width: 90px;
+  line-height: 1.5rem;
+}
+
+a:hover {
+  background-color: rgb(58, 57, 57);
+  color:  rgb(207, 205, 75) !important;
 }
 
 .drop-down-menu li ul {
@@ -81,7 +87,9 @@
 }
 
 .drop-down-menu li ul li:hover {
-  background: #444;
+  background: rgb(211, 188, 61);
+  color: rgb(211, 188, 61);
+  
 }
 
 .fade-enter-active, .fade-leave-active {

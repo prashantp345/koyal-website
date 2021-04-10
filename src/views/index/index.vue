@@ -91,7 +91,7 @@
             document.body.classList.remove( 'header-fixed' );
         },
         metaInfo: {
-            title: 'Home | Malex - Business Consulting Agency Vue JS Template',
+            title: 'Koyal Technologies - Building solutions.',
             titleTemplate: '%s'
         }
     };

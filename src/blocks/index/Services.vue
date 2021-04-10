@@ -10,7 +10,7 @@
 
                         <h4 class="service-t-head">Agile Moves</h4>
 
-                        <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+                        <p class="service-description">An interactive and collaborative approach to project managment and software development.</p>
 
                         <div class="service-btn">
                             <router-link title="Read more" class="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase" to="/service-inside">
@@ -29,7 +29,7 @@
 
                         <h4 class="service-t-head">Best Minds</h4>
 
-                        <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+                        <p class="service-description">Strong Leadership and highly skilled talent to ensure high performance at all times.</p>
 
                         <div class="service-btn">
                             <router-link title="Read more" class="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase" to="/service-inside">
@@ -48,7 +48,7 @@
 
                         <h4 class="service-t-head">Result Oriented</h4>
 
-                        <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+                        <p class="service-description">Focused on the outcome while keeping a tight reign on the process and delivery time.</p>
 
                         <div class="service-btn">
                             <router-link title="Read more" class="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase" to="/service-inside">

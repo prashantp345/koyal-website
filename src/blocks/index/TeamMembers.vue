@@ -39,15 +39,7 @@
                         <nav class="team-member-nav-items">
                             <ul class="nav">
                                 <li class="nav-item">
-                                    <a title="Facebook" href="https://www.facebook.com/adveits/"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-
-                                <li class="nav-item">
                                     <a title="LinkedIn" href="https://www.linkedin.com/in/jeff-reed-1631875"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a title="Instagram" href="https://www.instagram.com/adveits/"><i class="fab fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </nav>
@@ -79,15 +71,7 @@
                         <nav class="team-member-nav-items">
                             <ul class="nav">
                                 <li class="nav-item">
-                                    <a title="Facebook" href="https://www.facebook.com/adveits/"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-
-                                <li class="nav-item">
                                     <a title="LinkedIn" href="https://www.linkedin.com/in/josephsaju"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a title="Instagram" href="https://www.instagram.com/adveits/"><i class="fab fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </nav>

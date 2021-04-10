@@ -13,7 +13,7 @@
                                 <nav class="menu-primary">
                                     <ul class="nav">
                                         <li class="nav-item" v-bind:class="menuElements[0]">
-                                           <drop-down id="nav-services"
+                                           <drop-down
                                                 :title="{name:'Home',link:'MENU LINK'}" 
                                             />
                                         </li>

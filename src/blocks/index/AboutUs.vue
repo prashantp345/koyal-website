@@ -8,7 +8,7 @@
             <div class="row gutter-width-md with-pb-md">
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="description-2">
-                        <h2>To serve as a reliable offshore technological partner, operating in a healthy agile environment,building trust and adding values to our clients.</h2>
+                        <h2>To serve as a reliable offshore technological partner, operating in a healthy agile environment, building trust and adding values to our clients.</h2>
                     </div>
 
                     <!-- <div class="signature spacer m-top-lg">

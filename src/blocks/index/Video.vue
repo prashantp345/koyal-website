@@ -13,7 +13,11 @@
                                  </div>
                             </div>
                             
-                        <img src="assets/img/placeholder/HomePage1.jpeg" alt="Video">
+                                <img src="assets/img/placeholder/HomePage1.jpeg" alt="Image">
+                                <div class="text-block"> 
+                                    <p>What a beautiful sunrise</p>
+                                
+                             </div>
                         </div>
                     </div>
                 </div>
@@ -23,6 +27,7 @@
         </div>
     </div>
 </template>
+
 
 <script>
     import FsLightbox from 'fslightbox-vue';

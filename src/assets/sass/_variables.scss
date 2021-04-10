@@ -47,9 +47,9 @@ $dark:                                                #060606;
 // Body
 $body_text_primary_color:                             #6c6c6c;
 $body_text_secondary_color:                           #060606;
-$body_text_tertiary_color:                            #ffffff; // For dark background
+$body_text_tertiary_color:                            #5c5b54; // For dark background
 $body_headline_color:                                 #060606;
-$body_links_color:                                    #060606;
+$body_links_color:                                    #000000;
 $body_links_hover_color:                              #0f4c81;
 $body_background_color:                               #ffffff;
 
@@ -61,7 +61,7 @@ $body_mark_background:                                #fcf8e3;
 // Header
 $header_color:                                        #6c6c6c;
 $header_background_color:                             transparent;
-$header_absolute_color:                               #ffffff;
+$header_absolute_color:                               #000000;
 $header_absolute_background_color:                    transparent;
 $header_fixed_background_color:                       #ffffff;
 
@@ -84,7 +84,7 @@ $dropdown_links_color:                                #060606;
 $dropdown_links_hover_color:                          #ffffff;
 $dropdown_links_active_color:                         #ffffff;
 $dropdown_links_background_color:                     #ffffff;
-$dropdown_links_hover_background_color:               #060606;
+$dropdown_links_hover_background_color:               #c0b33f;
 $dropdown_links_active_background_color:              #060606;
 
 // Forms
@@ -225,7 +225,7 @@ $disabled_opacity:                                    0.5;
 $font_family_base:                                    $font_primary;
 
 $h1_font_size:                                        2.474rem;
-$h2_font_size:                                        2.053rem;
+$h2_font_size:                                        1.9rem;
 $h3_font_size:                                        1.737rem;
 $h4_font_size:                                        1.421rem;
 $h5_font_size:                                        1.211rem;

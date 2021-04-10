@@ -10,9 +10,6 @@
                 <div class="footer">
                     <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-between">
                         <div class="align-self-center">
-                            <div class="logo logo-secondary">
-                                <img src="assets/img/logo/Koyallogo.png" alt="Logo">
-                            </div>
                         </div>
 
                         <div class="align-self-center">
