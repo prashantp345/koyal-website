@@ -15,7 +15,6 @@
 
                                     <div class="header-right d-flex justify-content-end">
                                         <div class="d-flex align-items-center">
-                                            <!-- <search-modal-button-component button-class="adv-light" btn-outline="btn-outline-tertiary" /> -->
 
                                             <div class="menu-close-toggle">
                                                 <button @click="toggleMenuModal" type="button" class="btn btn-lg btn-outline-tertiary btn-round p-0 min-w-auto" data-dismiss="modal" aria-label="Close">
@@ -44,7 +43,7 @@
                             <div class="modal-footer">
                                 <div class="d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-row justify-content-between w-100">
                                     <div class="modal-text">
-                                        <p>© 2020 Business Consulting Agency Vue JS Template By Adveits</p>
+                                        <p>© Koyal Technologies LLP</p>
                                     </div>
 
                                     <languages-block />
