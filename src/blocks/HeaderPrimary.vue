@@ -14,74 +14,61 @@
                                     <ul class="nav">
                                         <li class="nav-item" v-bind:class="menuElements[0]">
                                            <drop-down
-                                                :title="{name:'Home',link:'MENU LINK'}" 
+                                                :title="{name:'Home',link:'/'}" 
                                             />
                                         </li>
 
                                         <li class="nav-item" v-bind:class="menuElements[1]">
                                             <drop-down 
-                                                :title="{name:'About Us',link:'MENU LINK'}" 
-                                                :menuData="[{name:'Vision/Mission',link:'SUB MENU LINK 1'},
-                                                            {name:'Values',link:'SUB MENU LINK 2'},
-                                                            {name:'Team',link:'SUB MENU LINK 2'}   ]"
+                                                :title="{name:'About Us',link:'./#about-us'}" 
+                                                :menuData="[{name:'Vision/Mission',link:'./#about-us'},
+                                                            {name:'Values',link:'./#about-us'},
+                                                            {name:'Team',link:'./#team-members'}   ]"
                                             />
                                         </li>
 
                                         <li class="nav-item" v-bind:class="menuElements[2]">
                                             <drop-down 
-                                                :title="{name:'Services',link:'MENU LINK'}" 
-                                                :menuData="[{name:'Agile & DevOps',link:'SUB MENU LINK 1'},
-                                                            {name:'Bussiness & Applications',link:'SUB MENU LINK 2'},
-                                                            {name:'AI & Automation',link:'SUB MENU LINK 2'},
-                                                            {name:'Website Development',link:'SUB MENU LINK 2'},
-                                                            {name:'Cloud',link:'SUB MENU LINK 2'},
-                                                            {name:'Data Analytics',link:'SUB MENU LINK 2'},
-                                                            {name:'Q&A Testing',link:'SUB MENU LINK 2'},
-                                                            {name:'UI/UX Design',link:'SUB MENU LINK 2'},
-                                                            {name:'Software Development',link:'SUB MENU LINK 2'}   ]"
+                                                :title="{name:'Services',link:''}" 
+                                                :menuData="[{name:'Agile & DevOps',link:''},
+                                                            {name:'Bussiness & Applications',link:''},
+                                                            {name:'AI & Automation',link:''},
+                                                            {name:'Website Development',link:''},
+                                                            {name:'Cloud',link:''},
+                                                            {name:'Data Analytics',link:''},
+                                                            {name:'Q&A Testing',link:''},
+                                                            {name:'UI/UX Design',link:''},
+                                                            {name:'Software Development',link:''}   ]"
                                             />
                                         </li>
 
                                         <li class="nav-item" v-bind:class="menuElements[3]">
-                                            <drop-down 
-                                                :title="{name:'Industries',link:'MENU LINK'}" 
-                                            />
+                                            Industries
                                         </li>
 
                                         <li class="nav-item" v-bind:class="menuElements[4]">
                                            <drop-down 
-                                                :title="{name:'Resources',link:'MENU LINK'}" 
-                                                :menuData="[{name:'Case Study',link:'SUB MENU LINK 1'},
-                                                            {name:'Blogs',link:'SUB MENU LINK 2'},
-                                                            {name:'Webinar',link:'SUB MENU LINK 2'}   ]"
+                                                :title="{name:'Resources',link:'/'}" 
+                                                :menuData="[{name:'Case Study',link:'/'},
+                                                            {name:'Blogs',link:'/news'},
+                                                            {name:'Webinar',link:'/'}   ]"
                                             />
                                         </li>
 
                                         <li class="nav-item" v-bind:class="menuElements[6]">
-                                            <drop-down 
-                                                :title="{name:'Contacts',link:'MENU LINK'}" 
+                                            <drop-down :title="{name:'Contacts',link:'./#contacts'}" 
                                             />
                                         </li>
                                     </ul>
+
                                 </nav>
                             </div>
-
-                            
-
                             <menu-modal-button-component button-class="adv-light mr-0" btn-outline="btn-outline-tertiary" />
-
-                            <menu-modal-button-component button-class="adv-dark" btn-outline="btn-secondary btn-hover-main-secondary" />
-
-                           
+                            <menu-modal-button-component button-class="adv-dark" btn-outline="btn-secondary btn-hover-main-secondary" />                           
                         </div>
-
-                            
                     </div>
                 </div>
             </div>
-
-
-             
         </header>
     </transition>
 </template>
@@ -139,7 +126,6 @@
                 let servicesOfst     = document.getElementById( 'services' ).offsetTop;
                 let aboutUsOfst      = document.getElementById( 'about-us' ).offsetTop;
                 let teamMembersOfst  = document.getElementById( 'team-members' ).offsetTop;
-                let pricePlansOfst   = document.getElementById( 'price-plans' ).offsetTop;
                 let testimonialsOfst = document.getElementById( 'testimonials' ).offsetTop;
                 let newsOfst         = document.getElementById( 'news' ).offsetTop;
                 let contactsOfst     = document.getElementById( 'contacts' ).offsetTop;
