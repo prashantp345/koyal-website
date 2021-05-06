@@ -5,8 +5,8 @@
                 <a :href="title.link">{{title.name}}</a>
                 <transition name="fade">
                     <ul v-if="listOne" @click="listOne = false">
-                    <li style="margin:0" v-for="item in menuData" :key="item.name">
-                      <a :href="item.link">{{item.name}}</a>
+                    <li class="full-width" style="margin:0" v-for="item in menuData" :key="item.name">
+                      <a :href="item.link"><span class="text-color">{{item.name}}</span></a>
                     </li>
                     </ul>
                 </transition>
@@ -59,6 +59,9 @@
   text-decoration: none;
 }
 
+.full-width {
+  width: 100%;
+}
 .drop-down-menu li {
   display:block;
   float: left;
@@ -66,10 +69,10 @@
   color: rgb(204, 188, 41);
   min-width: 90px;
   line-height: 1.5rem;
+ 
 }
 
-a:hover {
-  background-color: rgb(58, 57, 57);
+.text-color a:hover  {
   color:  rgb(207, 205, 75) !important;
 }
 
@@ -80,6 +83,7 @@ a:hover {
   line-height: 0;
   margin: 0 !important;
   padding: 0;
+  background-color: white;
 }
 
 .drop-down-menu li ul li {
@@ -89,7 +93,6 @@ a:hover {
 .drop-down-menu li ul li:hover {
   background: rgb(211, 188, 61);
   color: rgb(211, 188, 61);
-  
 }
 
 .fade-enter-active, .fade-leave-active {
